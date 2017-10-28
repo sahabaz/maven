@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8600" started-at="2017-10-28T11:10:55Z" finished-at="2017-10-28T11:11:04Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="8600" started-at="2017-10-28T11:10:55Z" finished-at="2017-10-28T11:11:04Z">
+      <class name="demo.practice">
+        <test-method status="PASS" signature="m1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:demo.practice@e26948]" name="m1" duration-ms="8583" started-at="2017-10-28T16:40:55Z" finished-at="2017-10-28T16:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.1.16:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- demo.practice -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
